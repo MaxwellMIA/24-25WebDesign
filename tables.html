@@ -9,7 +9,7 @@
     <h1>HTML Table Example</h1>
     <h2>Items Sold Summary:</h2>
 
-    <table>
+    <table border="1">
         <caption>Items Sold August</caption>
         
 
@@ -40,7 +40,7 @@
                 <td>23</td>
             </tr>
             <tr>
-                <!--Belgium is taken care of-->
+                <!--Belgium is taken care of (row 2)-->
                 <th>Gent</th>
                 <td>46</td>
                 <td>18</td>
@@ -49,14 +49,30 @@
                 <td>15</td>
             </tr>
             <tr>
-                <!--Belgium is taken care of-->
-                <th></th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <!--Belgium is taken care of (row 3)-->
+                <th>Brussels</th>
+                <td>51</td>
+                <td>27</td>
+                <td>38</td>
+                <td>69</td>
+                <td>28</td>
             </tr>
+            <tr>
+                <th rowspan="2">The Netherlands</th>
+                <th>Amsterdamn</th>
+                <td>89</td>
+                <td>34</td>
+                <td>69</td>
+                <td>85</td>
+                <td>38</td>
+            </tr>
+            <!--The Netherlands is taken care of (row 2)-->
+            <th>Utrecht</th>
+            <td>80</td>
+            <td>12</td>
+            <td>43</td>
+            <td>36</td>
+            <td>19</td>
         </tbody>
     </table>
 </body>
